@@ -1,0 +1,70 @@
+body {
+    background-color:white;
+    }
+    
+    .grid {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: darkviolet;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #cbcbcb;
+    }
+    
+    .grid h1 {
+    font-family: "sans-serif";
+    background-color:purple;
+    font-size: 60px;
+    text-align: center;
+    color: goldenrod;
+    padding: 2px 0px;
+    border-radius: 50px;
+    }
+    
+    #score {
+    color: gold;
+    text-align: center;
+    font-size: 30px;
+    }
+    
+    
+    .grid #question {
+    font-family: "monospace";
+    font-size: 30px;
+    color: gold;
+    }
+    
+    
+    .buttons {
+    margin-top: 30px;
+    }
+    
+    #bt0, #bt1, #bt2, #bt3 {
+    background-color:purple;
+    width: 250px;
+    font-size: 20px;
+    color:gold;
+    border: 1px solid #1D3C6A;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+    }
+    
+    #bt0:hover, #bt1:hover, #bt2:hover, #bt3:hover {
+    cursor: pointer;
+    background-color:darkgoldenrod; 
+    }   
+    #bt0 :focus, bt1 :focus, bt2 :focus, bt3 :focus{
+        outline: darkviolet;
+    }
+    #progress {
+    color: gold;
+    font-size: 18px;
+    }
+    
+    
+     
+    
+    
